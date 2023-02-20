@@ -1,0 +1,176 @@
+img{
+    width: 100%;
+}
+
+ol{
+    counter-reset: counter;
+    list-style-type: none;
+}
+
+li::before{
+    counter-increment: counter;
+    content: counters(counter,'.') ' ';
+}
+
+.journey-index{
+    display: inline-block;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    border: 1px black solid;
+}
+
+.index-h2{
+    text-align: center;
+    border-bottom: 1px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #cbd8e4;
+    margin-top: 0px;
+}
+
+.transportation-box{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.transportation{
+    display: inline-block;
+    /* border: 1px black solid; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.transportation p{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.transportation img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;   
+}
+
+.index-box{
+    /* background-color: #c1e4e9; */
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.dairy{
+    /* display: inline-block; */
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    border-left: solid 0.5px rgb(201, 195, 195);
+    border-right: solid 0.5px rgb(201, 195, 195);
+}
+
+.dairy h1{
+    text-align: center;
+    background-color:#a694a2; 
+}
+
+.dairy h2{
+    text-align: center;
+    background-color: #ead1be;
+}
+
+.story-box{
+    display:flex;
+    margin-bottom: 80px;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.story-box-large{
+    display: inline-block;
+    margin-bottom: 80px;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    width: 95%;
+}
+
+.story-box-onlyimage{
+    display:flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.story-image{
+    width: 50%;
+}
+
+.story-comment-right{
+    width:40%;
+    margin-left: 7%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    /* background-color: rebeccapurple; */
+}
+
+.story-comment-left{
+    width:40%;
+    margin-right: 7%;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    /* background-color: rebeccapurple; */
+}
+
+.story-comment-left p, .story-comment-right p, .story-box-onlyimage p{
+    letter-spacing: 1.5px;
+    color: #8b4513;
+    font-family: 'Maru Gothic' , sans-serif;
+}
+
+.story-box-large p{
+    letter-spacing: 1.5px;
+    color: #8b4513;
+    font-family: 'Maru Gothic' , sans-serif;
+}
+
+.large-main-text{
+    margin-left: 34%;
+}
+
+.center-text{
+    margin-left: 0%;
+    text-align: center;
+}
+
+/* .dairy img{
+    width: 48%;
+} */
+
+.day-by-dairy{
+    margin-bottom: 80px;
+}
+
+.spot-by-dairy{
+    margin-bottom: 40px;
+}
+
+.link-box{
+    background-color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.link-detail{
+    padding-left: 40px;
+    text-align: center;
+}
